@@ -1,0 +1,34 @@
+{
+  "name": "wvu-utilities-box-sizing",
+  "version": "0.0.2",
+  "description": "WVU Pattern Library - Utility - Box Sizing",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "gulp ci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wvu-patterns/wvu-utilities-box-sizing.git"
+  },
+  "keywords": [
+    "wvu",
+    "scss",
+    "west virginia university"
+  ],
+  "author": "Steven Spriggs <steven.spriggs@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wvu-patterns/wvu-utilities-box-sizing/issues"
+  },
+  "homepage": "https://github.com/wvu-patterns/wvu-utilities-box-sizing",
+  "devDependencies": {
+    "del": "^0.1.3",
+    "gulp": "^3.8.8",
+    "gulp-autoprefixer": "^1.0.1",
+    "gulp-inject": "^1.0.2",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^1.0.0",
+    "gulp-scss-lint": "^0.1.4",
+    "run-sequence": "^1.0.1"
+  }
+}
