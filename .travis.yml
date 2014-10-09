@@ -7,9 +7,7 @@ node_js:
 before_install:
   - gem install bundler
   - bundle install
-  - npm install -g bower
   - npm install -g gulp
-  - bower install
 
 script:
   - gulp ci
