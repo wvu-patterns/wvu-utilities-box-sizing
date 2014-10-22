@@ -6,7 +6,7 @@
 Use [Bower](http://bower.io/) to install this module.
 
 ```bash
-$ bower install --save wvu-box-sizing
+$ bower install --save wvu-utilities-box-sizing
 ```
 
 ###Pattern Development
