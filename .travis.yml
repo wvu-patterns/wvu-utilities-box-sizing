@@ -1,13 +1,13 @@
 language: node_js
-
 node_js:
-  - "0.10"
-  - "0.11"
-  
+- '0.10'
+- '0.11'
 before_install:
-  - gem install bundler
-  - bundle install
-  - npm install -g gulp
-
+- gem install bundler
+- bundle install
+- npm install -g gulp
 script:
-  - gulp ci
+- gulp ci
+notifications:
+  slack:
+    secure: cAqmYA/XHEP0In/XxUClXrJpbS0cYFm9nvkM/cQaoxRadrIgq6+FAdDOfhcZBd5dEJwhVIT90/ngV0HjNPSP8cHCCML+vdf9sMnAV9QqYnVVzwOjyUz1vZ+/arKrzyqtNgp3rxaqrUAvgTUwGEabYbxM3fh4Cvd0mn0YvjQsO0Q=
