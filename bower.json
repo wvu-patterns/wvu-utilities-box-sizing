@@ -1,18 +1,21 @@
 {
   "name": "wvu-utilities-box-sizing",
+  "homepage": "https://github.com/wvu-patterns/wvu-utilities-box-sizing",
   "version": "0.0.2",
   "authors": [
-    "Steven Spriggs <steven.spriggs@gmail.com>"
+    "Dustin Mazon <dustin.mazon@mail.wvu.edu>",
+    "Steven Spriggs <steven.spriggs@mail.wvu.edu>"
   ],
-  "description": "WVU Patterns Library - Box Sizing Utility",
-  "main": "_wvu-box-sizing.scss",
   "keywords": [
     "wvu",
     "west virginia university",
-    "css",
-    "scss"
+    "patterns"
   ],
+  "description": "WVU Patterns Library - Box Sizing Utility",
   "license": "MIT",
+  "main": [
+    "src/scss/_wvu-box-sizing.scss"
+  ],
   "ignore": [
     "**/.*",
     "node_modules",

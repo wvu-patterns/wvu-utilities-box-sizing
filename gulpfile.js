@@ -9,12 +9,6 @@ var gulp = require('gulp'),
     runSequence = require('run-sequence'),
     scsslint = require('gulp-scss-lint');
 
-// Replaced with node del 
-// gulp.task('clean', function () {
-//   return gulp.src('./build/*', { read: false })
-//     .pipe(clean());
-// });
-// https://github.com/gulpjs/gulp/blob/master/docs/recipes/delete-files-folder.md
 gulp.task('clean', function(cb){
   del([
     'build/**'
@@ -53,7 +47,7 @@ gulp.task('copy-test-html',function(){
 gulp.task('inject-src', ['scss-lint','copy-test-html','compile-css'], function () {
   var target = gulp.src('./build/index.html');
   target.pipe(inject(gulp.src(['./build/css/*.css'], {read: false}), {relative: true}))
-    
+
   target.pipe(inject(gulp.src(['./src/html/*.html']), {
     starttag: '<!-- inject:html -->',
     transform: function (filePath, file) {
